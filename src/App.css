@@ -1,0 +1,38 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.subscribe-one img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.subscribe-one__shape-1,
+.subscribe-one__shape-2,
+.subscribe-one__shape-3,
+.subscribe-one__shape-4,
+.subscribe-one__shape-5,
+.subscribe-one__shape-6 {
+  position: absolute;
+  z-index: 0;
+}
+
+@media (max-width: 768px) {
+  .subscribe-one__shape-1,
+  .subscribe-one__shape-2,
+  .subscribe-one__shape-3,
+  .subscribe-one__shape-4,
+  .subscribe-one__shape-5,
+  .subscribe-one__shape-6 {
+    display: none;
+  }
+}
+.stricky-fixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
