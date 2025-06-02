@@ -47,7 +47,7 @@ function App() {
             <Route path="/career" element={<Career />} />
             <Route path="/contact" element={<Contactus />} />
             <Route path="/picture-gallery" element={<Gallery />} />
-            {/* <Route path="/picture-gallery" element={<Gallery />} /> */}
+           
           </Routes>
           <Newaletter />
           <Footer />
