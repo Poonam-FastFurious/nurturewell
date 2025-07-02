@@ -33,6 +33,7 @@ import AboutUs from "./Pages/AboutUs";
 import Career from "./Pages/Career";
 import Contactus from "./Pages/Contactus";
 import Gallery from "./Pages/Gallery";
+import ExportQuery from "./Pages/Home/ExportQuery";
 function App() {
   return (
     <>
@@ -45,6 +46,7 @@ function App() {
             <Route path="/our-products" element={<Product />} />
             <Route path="/about-us" element={<AboutUs />} />
             <Route path="/career" element={<Career />} />
+            <Route path="/export-query" element={<ExportQuery />} />
             <Route path="/contact" element={<Contactus />} />
             <Route path="/picture-gallery" element={<Gallery />} />
            

@@ -46,7 +46,7 @@ function Header() {
                     </div>
                     <div className="text">
                       <p>
-                        <Link to="tel:919811060171">+91-9811060171</Link>
+                        <Link to="tel:918094014378">+91-8094014378</Link>
                       </p>
                     </div>
                   </li>
@@ -146,7 +146,6 @@ function Header() {
                         </li>
                       </ul>
                     </li>
-
                     <li>
                       <Link to="/our-products">Our Products</Link>
                     </li>
@@ -155,6 +154,9 @@ function Header() {
                     </li>
                     <li>
                       <Link to="/career">Career</Link>
+                    </li>
+                    <li>
+                      <Link to="/export-query">Export Query</Link>
                     </li>
                     <li className="">
                       <Link to="/contact">Contact us</Link>

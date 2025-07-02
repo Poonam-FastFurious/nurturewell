@@ -301,7 +301,7 @@ function AboutUs() {
                   <div className="we-sell__help-line">
                     <p className="we-sell__help-line-text">Call us</p>
                     <h5 className="we-sell__help-line-number">
-                      <Link to="tel:9811060171">+91-9811060171</Link>
+                      <Link to="tel:9811060171">+91-8094014378</Link>
                     </h5>
                   </div>
                 </div>

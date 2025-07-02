@@ -5,15 +5,6 @@ function Contactus() {
   return (
     <>
       <PageTop Heading={"Contact Us"} />{" "}
-      <section className="google-map">
-        <div className="container">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4310.904517379064!2d77.31157847613603!3d28.58581608619936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce528b33e582d%3A0x52e1b3e1296c2c84!2sNurtureWell!5e1!3m2!1sen!2sin!4v1746704654051!5m2!1sen!2sin"
-            className="google-map__one"
-            allowfullscreen=""
-          ></iframe>
-        </div>
-      </section>
       <section className="contact-details">
         <div className="container">
           <div className="contact-details__inner">
@@ -25,7 +16,7 @@ function Contactus() {
                 <div className="content">
                   <p>Have question?</p>
                   <h4>
-                    <a href="tel:923076806860">+919811060171</a>
+                    <a href="tel:923076806860">+918094014378</a>
                   </h4>
                 </div>
               </li>
@@ -36,9 +27,25 @@ function Contactus() {
                 <div className="content">
                   <p>Write email</p>
                   <h4>
-                    <a href="mailto:needhelp@company.com">
+                    <a href="mailto:info@nurturewell.com">
                       info@nurturewell.com
                     </a>
+                  </h4>
+                </div>
+              </li>
+              <li>
+                <div className="icon">
+                  <span className="icon-mailbox"></span>
+                </div>
+                <div className="content">
+                  <p>Export Query? </p>
+                  <h4>
+                    <a href="mailto:export@nurturewell.com">
+                      export@nurturewell.com
+                    </a>
+                  </h4>{" "}
+                  <h4>
+                    <a href="mailto:export@nurturewell.com">+91-9871520806</a>
                   </h4>
                 </div>
               </li>
@@ -91,7 +98,7 @@ function Contactus() {
                     </a>
                   </h4>
                 </div>
-              </li>
+              </li>   
             </ul>
           </div>
         </div>
@@ -168,6 +175,15 @@ function Contactus() {
               </div>
             </div>
           </div>
+        </div>
+      </section>
+      <section className="google-map">
+        <div className="container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4310.904517379064!2d77.31157847613603!3d28.58581608619936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce528b33e582d%3A0x52e1b3e1296c2c84!2sNurtureWell!5e1!3m2!1sen!2sin!4v1746704654051!5m2!1sen!2sin"
+            className="google-map__one"
+            allowfullscreen=""
+          ></iframe>
         </div>
       </section>
     </>

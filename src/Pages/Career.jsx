@@ -27,7 +27,7 @@ function Career() {
                   <div className="we-sell__help-line">
                     <p className="we-sell__help-line-text">Call us</p>
                     <h5 className="we-sell__help-line-number">
-                      <a href="tel:923076806860">+91-9811060171</a>
+                      <a href="tel:918094014378">+91-8094014378</a>
                     </h5>
                   </div>
                 </div>
